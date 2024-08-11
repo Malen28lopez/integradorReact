@@ -1,16 +1,12 @@
-import React from 'react'
-import CommentList from '../Components/Comment/CommentList'
-import CommentForm from '../Components/Comment/CommentForm'
+import React from 'react';
+import Comments from '../Components/Comment/Comments';
 
 function CommentsPage() {
   return (
-    <div>Deja tu comentario
-      <CommentList />
-      <CommentForm />
-
-
+    <div>
+      <Comments />
     </div>
-  )
+  );
 }
 
-export default CommentsPage
+export default CommentsPage;
