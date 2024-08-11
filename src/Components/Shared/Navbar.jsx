@@ -11,7 +11,13 @@ function Navbar() {
         <div className="space-x-4">
           <Link to="/about" className="text-white">
             About
-          </Link>          
+          </Link>
+          <Link to="/comment" className="text-white">
+            Comments
+          </Link>
+          <Link to="/city" className="text-white">
+            City Details
+          </Link>
         </div>
       </div>
     </nav>

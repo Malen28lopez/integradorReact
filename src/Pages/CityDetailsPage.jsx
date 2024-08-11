@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import citiesData from './citiesData'; // Asegúrate de la ruta correcta
-import CommentsPage from './CommentsPage';
+import Comments from '../Components/Comment/Comments';
 
 function CityDetailsPage() {
   const { city } = useParams();
@@ -22,7 +22,7 @@ function CityDetailsPage() {
           <li key={index} className="text-gray-700">{point}</li>
         ))}
       </ul>
-      <CommentsPage />
+      <Comments city={cityData.name} />
     </div>
   );
 }

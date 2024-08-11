@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function CommentList({ comments = [] }) {
   return (
@@ -8,7 +9,9 @@ function CommentList({ comments = [] }) {
       ) : (
         comments.map((comment, index) => (
           <div key={index} className="border-b border-gray-200 py-2">
-            {comment}
+            <Link to={`/city-details/${comment.city}`} className="text-blue-500 hover:underline">
+              {comment.text}
+            </Link>
           </div>
         ))
       )}

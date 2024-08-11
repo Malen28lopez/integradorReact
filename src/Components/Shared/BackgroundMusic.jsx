@@ -6,7 +6,7 @@ function BackgroundMusic() {
 
     useEffect(() => {
       const audio = audioRef.current;
-      audio.volume = 0.1; 
+      audio.volume = 0.01; 
       audio.loop = true; 
       audio.play();
   
