@@ -53,7 +53,7 @@ function Continent() {
           continents.map((continent, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl tarjeta-mapa transition-shadow duration-300 cursor-pointer"
+              className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl tarjeta-mapa hover:shadow-2xl transition-shadow duration-300 cursor-pointer transform hover:scale-105 hover:bg-gradient-to-l hover:from-blue-700 hover:to-blue-500"
               onClick={() => handleContinentClick(continent)}
             >
               <h2 className="text-2xl font-bold mb-2">{continent.name}</h2>

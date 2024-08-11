@@ -16,12 +16,13 @@ function Comments({ city }) {
     setComments((prevComments) => [...prevComments, comment]);
   };
 
+  // Filtra los comentarios por la ciudad actual
   const cityComments = comments.filter(comment => comment.city === city);
 
   return (
     <div className="bg-gray-100 p-6 rounded-lg shadow-lg mt-6 max-w-2xl mx-auto">
       <h2 className="text-2xl font-semibold mb-4 text-blue-600">Comentarios sobre {city}</h2>
-      <CommentForm addComment={addComment} />
+      <CommentForm addComment={addComment} city={city} />
       <CommentList comments={cityComments} />
     </div>
   );

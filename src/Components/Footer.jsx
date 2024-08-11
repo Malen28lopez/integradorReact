@@ -1,29 +1,30 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
-    <div className="bg-black bg-opacity-60 text-white text-center p-4 border-t-4 border-blue-500 font-medium shadow-md mt-8">
-      <p className="text-lg mb-4">Sobre Nosotros</p>
-      <div className="flex justify-center space-x-8">
+    <div className="bg-gray-900 bg-opacity-90 text-white text-center p-6 border-t-4 border-blue-500 font-medium shadow-md mt-8">
+      <div className="flex justify-center space-x-12">
         <div>
-          <p className="font-semibold">Pablo Peralta</p>
-          <div className="flex justify-center space-x-4">
-            <a href="https://github.com/pabloperalta" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-              GitHub
+          <p className="font-semibold text-lg">Pablo Peralta</p>
+          <div className="flex justify-center space-x-6 mt-2">
+            <a href="https://github.com/pabloperalta" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+              <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
-            <a href="https://www.linkedin.com/in/pabloperalta" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-              LinkedIn
+            <a href="https://www.linkedin.com/in/pabloperalta" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
         </div>
         <div>
-          <p className="font-semibold">Malena Lopez</p>
-          <div className="flex justify-center space-x-4">
-            <a href="https://github.com/malenalopez" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-              GitHub
+          <p className="font-semibold text-lg">Malena Lopez</p>
+          <div className="flex justify-center space-x-6 mt-2">
+            <a href="https://github.com/malenalopez" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+              <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
-            <a href="https://www.linkedin.com/in/malenalopez" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-              LinkedIn
+            <a href="https://www.linkedin.com/in/malenalopez" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
         </div>

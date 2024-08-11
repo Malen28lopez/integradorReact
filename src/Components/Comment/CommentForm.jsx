@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 
-function CommentForm({ addComment }) {
+function CommentForm({ addComment, city }) {
   const [comment, setComment] = useState('');
-  const [city, setCity] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (comment.trim() && city.trim()) {
+    if (comment.trim()) {
       addComment({ text: comment, city }); // Añadir ciudad al comentario
-      setComment('');
-      setCity(''); // Resetear el estado
+      setComment(''); // Resetear el estado
     }
   };
 
@@ -21,13 +19,6 @@ function CommentForm({ addComment }) {
         placeholder="Escribe un comentario"
         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         rows="4"
-      />
-      <input
-        type="text"
-        value={city}
-        onChange={(e) => setCity(e.target.value)}
-        placeholder="Nombre de la ciudad"
-        className="w-full p-2 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
       />
       <button
         type="submit"

@@ -15,7 +15,7 @@ function Country({ continent }) {
         continent.countries.map((country, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg tarjeta-mapa shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl tarjeta-mapa hover:shadow-2xl transition-shadow duration-300 cursor-pointer transform hover:scale-105 hover:bg-gradient-to-l hover:from-blue-700 hover:to-blue-500"
             onClick={() => handleCountryClick(country)}
           >
             <h2 className="text-2xl font-bold mb-2">{country}</h2>
