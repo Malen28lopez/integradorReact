@@ -278,7 +278,7 @@ const citiesData = {
     },
     Roatán: {
       name: 'Roatán',
-      image: '../src/assets/ciudades/roatán.jpg',
+      image: '../src/assets/ciudades/roatan.jpg',
       details: 'Roatán es una isla en el Caribe de Honduras, famosa por sus playas de arena blanca y sus excelentes oportunidades para el buceo.',
       pointsOfInterest: ['West Bay Beach', 'Parque Nacional Marino de Roatán', 'Isla de los Delfines'],
     },

@@ -9,10 +9,10 @@ function Footer() {
         <div>
           <p className="font-semibold text-lg">Pablo Peralta</p>
           <div className="flex justify-center space-x-6 mt-2">
-            <a href="https://github.com/pabloperalta" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+            <a href="https://github.com/PabloPeralta94" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
-            <a href="https://www.linkedin.com/in/pabloperalta" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+            <a href="https://www.linkedin.com/in/pablo-andres-peralta/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
@@ -20,10 +20,10 @@ function Footer() {
         <div>
           <p className="font-semibold text-lg">Malena Lopez</p>
           <div className="flex justify-center space-x-6 mt-2">
-            <a href="https://github.com/malenalopez" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+            <a href="https://github.com/Malen28lopez" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
-            <a href="https://www.linkedin.com/in/malenalopez" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+            <a href="https://www.linkedin.com/in/malena-lopez-/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
