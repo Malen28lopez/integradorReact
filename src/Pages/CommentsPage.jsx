@@ -13,9 +13,11 @@ function CommentsPage() {
   }, []);
 
   return (
-    <div className="bg-gray-100 p-6 rounded-lg shadow-lg mt-6 max-w-2xl mx-auto">
+    <div className="bg-gray-100 p-6 rounded-lg shadow-lg mt-6 mx-auto max-w-7xl">
       <h2 className="text-2xl font-semibold mb-4 text-blue-600">Todos los Comentarios</h2>
-      <CommentList comments={comments} />
+      <div className="flex flex-wrap justify-between">
+        <CommentList comments={comments} />
+      </div>
     </div>
   );
 }

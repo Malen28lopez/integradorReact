@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* index.css o App.css */
+body {
+    background: linear-gradient(135deg, #0044cc, #66a3ff); /* Degradado de azul oscuro a azul claro */
+    margin: 0;
+    padding: 0;
+  }
+  
